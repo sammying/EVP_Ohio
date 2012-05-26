@@ -1,1 +1,32 @@
 Protocol for adding powerplants to Mapwindow with Dustran extension
+
+As a test, added the WH Zimmer plant (Moscow, Cincinnati, Ohio) into Dustran
+
+Information needed for Dustran simulation:
+
+Meteorological:
+
+1. Wind speed, m/s
+2. wind direction, degrees
+3. mixing height, m
+4. ambient temperature, C
+5. relative humidity, %
+6. ambient pressure, mb
+7. atmospheric stability, A - F
+
+Source (column information in NETL_CPPDB_2005.xls): 
+
+1. Height of release, m, column FK
+2. stack gas exit velocity, m/s, column FQ
+3. stack gas exit temperature, C, column FM/FN
+4. stack diameter, m, back calc from column FL??
+5. building cross section, m^2, column FL
+6. initial horizontal plum size, m
+7. initial verticl plume size, m
+8. start date time
+9. duration
+10. pm2.5, emission rates, g/s, column DT
+11. pm10, emission rates, g/s, column DU
+12. pm15, emission rates, g/s, NA
+13. pm30 emission rates, g/s, NA
+
