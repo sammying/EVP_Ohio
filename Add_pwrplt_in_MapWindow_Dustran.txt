@@ -1,0 +1,1 @@
+Protocol for adding powerplants to Mapwindow with Dustran extension
